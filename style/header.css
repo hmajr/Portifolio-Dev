@@ -1,5 +1,5 @@
 header {
-	background-image: url('/assets/Background_Intro.png');
+	background-image: url('./assets/Background_Intro.png');
 	background-size: cover;
 
 	display: flex;

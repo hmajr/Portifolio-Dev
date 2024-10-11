@@ -1,5 +1,5 @@
 footer{
-  background-image: url('/assets/background-contacts.png');
+  background-image: url('./assets/background-contacts.png');
 	background-size: cover;
 
   padding-block: 128px 200px;
