@@ -59,7 +59,7 @@ p{
 		height: 96px;
 
 		outline-offset: 4px;
-		outline: 2px solid var(--color-red);
+		outline: 3px solid var(--color-red);
 		border-radius: 100%;
 	}
 	&>img:last-child{
@@ -85,6 +85,8 @@ p{
 		align-items: center;
 	}
 	p{
+		font: var(--text-sm);
+		color: var(--color-gray-400);
 		text-align: center;
 	}
 
