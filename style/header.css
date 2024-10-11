@@ -105,23 +105,5 @@ p{
 			font: var(--text-md);
 			color: var(--color-gray-500);
 		}
-		#icon-github{
-			color: var(--color-gray-500);
-		}
-		#icon-html5{
-			color: var(--color-red);
-		}
-		#icon-css3{
-			color: var(--color-blue);
-		}
-		#icon-javascript{
-			color: var(--color-yellow);
-		}
-		#icon-react{
-			color: var(--color-blue);
-		}
-		#icon-nodejs{
-			color: var(--color-green);
-		}
 	}
 }
