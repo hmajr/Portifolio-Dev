@@ -44,3 +44,44 @@
   }
 }
 
+#services{
+  display: flex;
+  flex-direction: column;
+  padding-block: 88px 120px;
+  padding-inline: 120px;
+  gap: 56px;
+
+  background-color: var(--color-gray-100);
+}
+#services-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  p{
+    font: var(--subtitle);
+    color: var(--color-red);
+  }
+  h2{
+    font: var(--title-md);
+  }
+}
+#services-grid{
+  display: flex;
+  margin-inline: auto;
+  gap: 24px;
+}
+.services-card{
+  border: 2px solid var(--color-gray-200);
+  min-width: 280px;
+  border-radius: 12px;
+  padding: 20px;
+
+  h3{
+    font: var(--title-sm);
+    color: var(--color-gray-600);
+  }
+  p{
+    font: var(--text-sm);
+  }
+}
