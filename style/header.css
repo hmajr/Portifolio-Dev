@@ -1,0 +1,127 @@
+header {
+	background-image: url('/assets/Background_Intro.png');
+	background-size: cover;
+
+	display: flex;
+	flex-direction: column;
+	gap: 94px;
+	padding-inline: 163px;
+	padding-top: 120px;
+
+	&>img{
+		width: 32px;
+		height: 32px;
+		display: flex;
+		margin-inline: auto;
+		margin-bottom: 57px;
+	}
+}
+
+h1{
+
+	font: var(--title-lg);
+	color: var(--color-gray-600);
+}
+
+h2{
+	font: var(--subtitle);
+	color: var(--color-gray-500);
+}
+p{
+	font: var(--text-sm);
+	color: var(--color-gray-400);
+	text-align: justify;
+}
+#profile-info{
+	display: flex;
+	flex-direction: column;
+	margin-inline: auto;
+
+	justify-content: center;
+	gap: 80px;
+	width: 1040px;
+	height: 447px;
+}
+#profile-info-intro{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-inline: auto;
+	gap: 56px;
+}
+#profile-info-intro-pic{
+	display: flex;
+	margin-inline: auto;
+	position: relative;
+
+	&>img:first-child{
+		width: 96px;
+		height: 96px;
+
+		outline-offset: 4px;
+		outline: 2px solid var(--color-red);
+		border-radius: 100%;
+	}
+	&>img:last-child{
+		position: absolute;
+		inset: 78px 0 0 78px;
+		align-self: center;
+		justify-self: center;
+	}
+}
+#profile-info-intro-text{
+	display: flex;
+	flex-direction: column;
+
+	padding-inline: auto;
+
+	width: 680px;
+	padding: 0px;
+	gap: 20px;
+
+	div{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	p{
+		text-align: center;
+	}
+
+}
+#profile-info-devstacks{
+	display: flex;
+	gap: 16px;
+	margin-inline: auto;
+	div {
+		background-color: var(--color-gray-300);
+		border-radius: 999px;
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		padding: 8px 16px;
+
+		p{
+			font: var(--text-md);
+			color: var(--color-gray-500);
+		}
+		#icon-github{
+			color: var(--color-gray-500);
+		}
+		#icon-html5{
+			color: var(--color-red);
+		}
+		#icon-css3{
+			color: var(--color-blue);
+		}
+		#icon-javascript{
+			color: var(--color-yellow);
+		}
+		#icon-react{
+			color: var(--color-blue);
+		}
+		#icon-nodejs{
+			color: var(--color-green);
+		}
+	}
+}
