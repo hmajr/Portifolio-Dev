@@ -29,20 +29,35 @@
   width: 330px;
   height: 280px;
   border-radius: 12px;
-  padding: 12px;
   background-color: var(--color-gray-300);
-
+  
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 12px;
+  
   img{
     width: auto;
+    object-fit: cover;
     border-radius: 8px;
   }
-  h3{
-    font: var(--title-sm);
-  }
-  p{
-    font: var(--text-sm);
-  }
+  .project-card-description{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
+    h3{
+      font: var(--title-sm);
+      color: var(--color-gray-600);
+      
+    }
+    p{
+      font: var(--text-sm);
+      color: var(--color-gray-500);
+    }
+  }  
 }
+
 
 #services{
   display: flex;
