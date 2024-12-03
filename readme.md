@@ -34,9 +34,9 @@
 
 Open index.html from some web browser
 Branch structure:
-- MAIN : ultimate lastest knowledge
+- MAIN : lastest knowledge
 - HTML : HTML/CSS only version
-- React : using react.js
+- React : soon...
 ...
 
 I think is great to visualize the knowledge evolution 🤓
