@@ -9,9 +9,11 @@
 
 <p align="center">
     <b>Dev portifolio webpage for application of knowledge in html/css</b>
-    <p>It'll be updated with further knowledge acquired. 😊</p>
+    
 </p>
-
+<p align="center">
+    It'll be updated with further knowledge acquired. 😊
+</p>
 <p align="center">
      <a href="https://hmajr.github.io/05_Portifolio-Dev/">📱 Visit this Project</a>
 </p>
